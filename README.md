@@ -2,6 +2,8 @@
 
 This is a POC (Proof Of Concept) for using 2 sticky elements in combination.
 
+[Demo](http://client.digiti.be/sddc-sticky/)
+
 ## Grunt.js is here to help
 
 ### Dependencies
