@@ -1,0 +1,10 @@
+{
+  "name": "sticky-sddc",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "Stickyfill": "~1.0.5",
+    "normalize-css": "~3.0.1"
+  },
+  "devDependencies": {}
+}

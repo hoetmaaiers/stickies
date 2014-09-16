@@ -1,0 +1,74 @@
+// bower:scss
+// endbower
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+p {
+    margin: 0;
+}
+
+.year {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    > .label {
+        top: 0;
+        width: 20%;
+        height: 60px;
+        font-size: 3em;
+        position: -webkit-sticky;
+        position: sticky;
+        text-align: center;
+
+        .inner {
+            -webkit-transform: translateY(255px);
+            background-color: orange;
+            height: 60px;
+        }
+    }
+
+    > .content {
+        margin-left: 20%;
+        margin-top: -60px;
+    }
+}
+
+.month {
+    position: relative;
+    box-sizing: border-box;
+
+    .label {
+        display: block;
+        // float: left;
+        width: 20%;
+        height: 25px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        font-size: 1em;
+        text-align: center;
+        background-color: rgba(255,255,0, 0.8);
+    }
+
+    .content {
+        display: block;
+        font-size: 1.5em;
+        line-height: 1.6em;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: -25px;
+        padding-bottom: 20px;
+    }
+}
